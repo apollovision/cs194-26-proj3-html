@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>
+  body {
+    padding: 100px;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Questrial', sans-serif;
+    color: #121212;
+  }
+  h1 {
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  h2, h3 {
+    font-family: 'Questrial', sans-serif;
+    src: URL('fonts/Questrial-Regular.ttf');
+    color: #121212;
+  }
+  h5 {
+    text-align: middle;
+    font-family: 'Questrial', sans-serif;
+    src: URL('fonts/Questrial-Regular.ttf');
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  h6 {
+    font-family: 'Questrial', sans-serif;
+    src: URL('fonts/Questrial-Regular.ttf');
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  figcaption {
+    text-align: middle;
+    font-family: 'Questrial', sans-serif;
+    src: URL('fonts/Questrial-Regular.ttf');
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  p {
+    text-align: justify;
+    font-family: 'Questrial', sans-serif;
+    src: URL('fonts/Questrial-Regular.ttf');
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  h4 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 56px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+</style>
+<title>Image Morphing</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<p id="top">
+</p>
+<br><br><br>
+<h1 align="middle">image</h1>
+<h4 align="middle">Morph</h4>
+<h1 align="middle">-ing</h1>
+
+<br>
+<h3 align="middle"><span style="color:white">dream and make the new reality with us</span></h3>
+<h2 align="middle"><span style="color:white">xr.berkeley.edu</span></h2>
+<br>
+
+
+
+<h2 align="middle">Table of Contents</h2>
+<h2 align="middle">—</h2>
+<a href="#Part 1"><h6 align="middle">1. Population Thinking</h6></a>
+<a href="#Part 2"><h6 align="middle">2. Variation Within Species: The Case of Treefrogs</h6></a>
+<a href="#Part 3"><h6 align="middle">3. A Tribute to M. C. Escher</h6></a>
+<a href="#Part 4"><h6 align="middle">4. Symmetry and Light Study, 1</h6></a>
+<br><br><br><br><br><br><br><br>
+
+<a href="#Part 0"><h2 align="middle"><b>↑</b></h2></a>
+<h3 align="middle" id="Part 1">1. Population Thinking</h3>
+<a href="#Part 2"><h2 align="middle"><b>↓</b></h2></a>
+<br>
+<p>When considering populations, statistical tools, such as the mean and median, allow the formulation of various characterizations. It is extremely important to consider, however, that such statistics only describe a given population as an <i>abstracted</i> whole, and not as individuals. In fact, blindly relying on statistics leads, more often than not, to problematic, and sometimes outright wrong, conclusions. Individuals must always be looked as such; statistics are only here to complement the view.
+</p>
+<p> The following pictures depict a population of Danish computer scientis who had the <a href="http://www2.imm.dtu.dk/~aam/datasets/datasets.html">courtesy</a> to not only make their pictures available, but also label them appropriately for use in computer vision. Notice that the calculated mean face is very different from every input face. To assume that every Danish computer scientist looks close to the mean face is to assume something clearly wrong.
+</p>
+<p>
+That said, statistical tools do have their use, and such use is not, by any means, confined to prediction. For example, by using the mean face, once can extrapolate another face, to create new faces and caricatures. Indeed, art with statistics!
+</p>
+
+<br>
+<br>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/dataset/01-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/37-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/38-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/39-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/05-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <img src="images/danish/dataset/06-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/07-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/09-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/10-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/11-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/dataset/13-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/16-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/17-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/18-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/19-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <img src="images/danish/dataset/20-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/21-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/40-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/23-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/24-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/dataset/25-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/26-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/27-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/28-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/29-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <img src="images/danish/dataset/31-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/32-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/33-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/34-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    <td>
+      <img src="images/danish/dataset/36-5m.jpg" class="thumbnail" align="middle" width="120px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+
+
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/danish_mean.png" class="thumbnail" align="middle" width="616px"/>
+      <br><br>
+      <figcaption align="middle"><b><i>the Mean Danish Computer Scientist</i></b><br>— <br>starring in Dijkstra 11</figcaption>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/danish_mean_smile.png" class="thumbnail" align="middle" width="616px"/>
+      <br><br>
+      <figcaption align="middle"><b><i>the Mean Danish Computer Scientist, Smiling</i></b><br>— <br>a film about gambling, passion, and efficient Monte Carlo Integration</figcaption>
+    </td>
+    </tr>
+  </table>
+</div>
+
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/caricature_1.png" class="thumbnail" align="middle" width="308px"/>
+      <br><br>
+      <figcaption align="middle"><b><i>Caricature</i></b><br>— <br>extrapolation of smiling mean from mean [t = 2]</figcaption>
+    </td>
+    <td>
+      <img src="images/danish/caricature_2.png" class="thumbnail" align="middle" width="308px"/>
+      <br><br>
+      <figcaption align="middle"><b><i>Caricature</i></b><br>— <br>extrapolation of smiling mean from mean [t = -2]</figcaption>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/danish/danish_female_male.gif" class="thumbnail" align="middle" width="616px"/>
+      <br><br>
+      <figcaption align="middle"><b><i>Morphing Between Different Sexes</i></b><br>— <br>not as great as MJ's Black & White, but getting there</figcaption>
+    </td>
+    </tr>
+  </table>
+</div>
+
+
+<br><br><br><br><br><br><br><br>
+
+<a href="#Part 0"><h2 align="middle"><b>↑</b></h2></a>
+<h3 align="middle" id="Part 2">2. Variation Within Species: The Case of Treefrogs</h3>
+<a href="#Part 2"><h2 align="middle"><b>↓</b></h2></a>
+
+<br>
+<p>
+For most of human history, it was widely held that individuals came after types. Zebras came after "zebrahood". A zebra was a zebra only because it belonged to this abstract group called "zebras", characterized by some pre-existing essence called "zebrahood". In fact, the famous <i>Linnean taxonomy</i>, which biologists use to classify individuals into species, is a by-product of this idea. Carl Linnaeus, the inventor of this system, believed that God created every organism in the universe according to a model, and therefore could be studied and classified according to this model.
+</p>
+<p>
+However, since Darwin's <i>Theory of Evolution</i>, the story began to change. Rather than representing a type, individuals are the ones who make the type. Every individual, different in themselves, develops characteristics, which, macroscopically, when shared by a number of other individuals makes these individuals a species. Some of the most compelling evidence for this alternative explanation stems from the fact that even within species, individuals vary significantly. In certain cases, it becomes possible to talk about "microspecies". For instance, the Hypsiboas calcaratus-fasciatus species complex is known to include at least six types of closely related, yet different, treefrogs. Notice the variation in color, size, and body composition.
+</p>
+<br>
+<br>
+
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/treefrog/treefrog1.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/treefrog/treefrog2.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/treefrog/treefrog3.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/treefrog/treefrog.gif" class="thumbnail" align="middle" width="600px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/treefrog/treefrog4.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/treefrog/treefrog5.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/treefrog/treefrog6.jpg" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<p>
+<i>
+    Images taken from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3904076/">Systematics of Treefrogs</a> by Caminer and Ron (2014).
+</i>
+</p>
+<br><br><br><br><br><br><br><br>
+
+
+<a href="#Part 0"><h2 align="middle"><b>↑</b></h2></a>
+<h3 align="middle" id="Part 3">3. A Tribute to M. C. Escher</h3>
+<a href="#Part 2"><h2 align="middle"><b>↓</b></h2></a>
+<br>
+
+<p>
+<a href="https://en.wikipedia.org/wiki/M._C._Escher">Maurits Cornelis Escher</a> was a Dutch artist who lived in the 20th century, and is known for his mathematics-inspired pieces. One of my favorite works of his is a <a href="https://en.wikipedia.org/wiki/Sky_and_Water_I">tessellation of birds and fishes</a>, giving the impression of motion. In the following piece, I tried to recreate such an effect, but using image morphing, rather than woodcutting.
+</p>
+<br>
+<br>
+
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/birdfish/birdfish.gif" class="thumbnail" align="middle" width="600px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+
+
+<a href="#Part 0"><h2 align="middle"><b>↑</b></h2></a>
+<h3 align="middle" id="Part 4">4. Symmetry and Light Study, 1</h3>
+<a href="#Part 2"><h2 align="middle"><b>↓</b></h2></a>
+<br>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/ra/Revekka.png" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/ra/Revekka.gif" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/ra/Revekka_Droste.png" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<br>
+<h5 align="middle">I don't know if I say it often enough.</h5>
+<h5 align="middle">Σ' αγαπώ.</h5>
+
+<br><br><br><br>
+<hr><br><br><br><br>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/ra/Revekka.jpg" class="thumbnail" align="middle" width="308px"/>
+    </td>
+    <td>
+      <img src="images/ra/Apollo.jpg" class="thumbnail" align="middle" width="308px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/ra/Revekka_del.png" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/ra/r+a.png" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    <td>
+      <img src="images/ra/Apollo_del.png" class="thumbnail" align="middle" width="200px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/ra/ra.gif" class="thumbnail" align="middle" width="616px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+
+
+<a href="#Part 0"><h2 align="middle"><b>⇈</b></h2></a>
+<h3 align="middle"> Behind Art there's always a Muse. </h3>
+<hr>
+<h3 align="middle">CS 194-26: Computer Vision and Computational Photography (Fall 2020)</h3>
+<div align="middle">
+  <table style="width=100%">
+    <tr>
+    <td>
+      <img src="images/Signature.png" class="thumbnail" align="middle" width="150px"/>
+    </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
